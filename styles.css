@@ -131,3 +131,40 @@ body {
 h1 {
   color: #ec6333;
 }
+
+/* pro všechna html */
+.back_to_HP {
+}
+.left {
+  max-width: 200px;
+  margin-left: -60px;
+  margin-top: -50px;
+}
+
+/* pro wireframes.html */
+.list_of_wireframes {
+  display: flex;
+  flex-direction: column;
+}
+
+.img_responsive {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width: 576px) {
+  .list_of_wireframes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 49.99999%;
+    margin: 0 auto;
+  }
+
+  .img_responsive {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+}
