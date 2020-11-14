@@ -216,6 +216,11 @@ h3 {
   flex-direction: row;
   justify-content: space-around;
 }
+
+.gitButtons a {
+  height: 100%;
+}
+
 .gitButtons button {
   background-color: #212529;
   color: #dee2e6;
