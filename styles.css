@@ -168,30 +168,35 @@ h3 {
 /* pro wireframes.html */
 .list_of_wireframes {
   display: flex;
-  flex-direction: column;
-}
-
-.img_responsive {
-  margin: 0 auto;
-  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
-@media screen and (min-width: 576px) {
-  .list_of_wireframes {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 49.99999%;
-    margin: 0 auto;
-  }
-
-  .img_responsive {
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-  }
+.img_responsive {
+  height: auto;
+  width: 50%;
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-bottom: 100%;
 }
+.wireframe1 {
+  background-image: url(img/homepage.png);
+}
+.wireframe2 {
+  background-image: url(img/category.png);
+}
+.wireframe3 {
+  background-image: url(img/category_detail.png);
+}
+.wireframe4 {
+  background-image: url(img/detail.png);
+}
+.wireframe5 {
+  background-image: url(img/pravidla.png);
+}
+
 /* pro aboutus.html */
 .aboutUsPage {
   margin-left: 0 auto;
