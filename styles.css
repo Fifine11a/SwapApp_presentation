@@ -9,7 +9,7 @@ html {
 body {
   height: 100%;
   color: #212529;
-  font-family: 'Avenir Next', 'Avenir', sans-serif;
+  font-family: 'Roboto', Helvetica, sans-serif;
   margin: 0;
   padding: 0;
   background-repeat: no-repeat;
@@ -130,6 +130,22 @@ body {
 
 h1 {
   color: #ec6333;
+  text-align: center;
+  font-family: 'Amatic SC', Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 70px;
+  margin: auto;
+}
+
+h2 {
+  color: #dee2e6;
+  background-color: #212529;
+  text-align: left;
+  font-family: 'Amatic SC', Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 45px;
+  margin: 0 auto;
+  padding-left: 15px;
 }
 
 /* pro všechna html */
@@ -167,4 +183,36 @@ h1 {
     display: flex;
     justify-content: center;
   }
+}
+/* pro aboutus.html */
+.aboutUsPage {
+  margin-left: 0 auto;
+}
+
+.cat_gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cats {
+  float: left;
+  position: relative;
+  width: 30%;
+  padding-bottom: 30%;
+  margin: 1.66%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cat1 {
+  background-image: url(img/Fringe.JPG);
+}
+.cat2 {
+  background-image: url(img/Pantalaimon.JPG);
+}
+.cat3 {
+  background-image: url(img/kluci.jpg);
+}
+.cat4 {
+  background-image: url(img/kluci2.jpg);
 }
