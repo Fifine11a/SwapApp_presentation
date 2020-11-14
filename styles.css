@@ -173,6 +173,16 @@ h3 {
   justify-content: center;
 }
 
+.list_of_wireframes img {
+  max-width: 100%;
+  height: auto;
+}
+
+figcaption {
+  text-align: center;
+}
+
+/*
 .img_responsive {
   height: auto;
   width: 50%;
@@ -181,6 +191,7 @@ h3 {
   background-size: contain;
   padding-bottom: 100%;
 }
+
 .wireframe1 {
   background-image: url(img/homepage.png);
 }
@@ -196,6 +207,7 @@ h3 {
 .wireframe5 {
   background-image: url(img/pravidla.png);
 }
+*/
 
 /* pro aboutus.html */
 .aboutUsPage {
