@@ -16,7 +16,41 @@ body {
   background-attachment: fixed;
   background-color: #dee2e6;
 }
+.logo_velke {
+  border-radius: 8px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
+h1 {
+  color: #ec6333;
+  text-align: center;
+  font-family: 'Amatic SC', Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 70px;
+  margin: auto;
+}
+
+h2 {
+  color: #dee2e6;
+  background-color: #212529;
+  text-align: left;
+  font-family: 'Amatic SC', Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 45px;
+  margin: 0 auto;
+  padding-left: 15px;
+}
+
+.left {
+  max-width: 200px;
+  margin-left: -60px;
+  margin-top: -50px;
+}
+
+/* hamburger menu*/
 #menuToggle {
   display: block;
   position: relative;
@@ -119,42 +153,7 @@ body {
 #menuToggle input:checked ~ ul {
   transform: none;
 }
-
-.logo_velke {
-  border-radius: 8px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
-h1 {
-  color: #ec6333;
-  text-align: center;
-  font-family: 'Amatic SC', Helvetica, sans-serif;
-  font-weight: 700;
-  font-size: 70px;
-  margin: auto;
-}
-
-h2 {
-  color: #dee2e6;
-  background-color: #212529;
-  text-align: left;
-  font-family: 'Amatic SC', Helvetica, sans-serif;
-  font-weight: 400;
-  font-size: 45px;
-  margin: 0 auto;
-  padding-left: 15px;
-}
-
-/* pro všechna html */
-
-.left {
-  max-width: 200px;
-  margin-left: -60px;
-  margin-top: -50px;
-}
+/* konec hamburger menu*/
 
 /* pro wireframes.html */
 .list_of_wireframes {
@@ -187,7 +186,9 @@ h2 {
 .aboutUsPage {
   margin-left: 0 auto;
 }
-
+.aboutUsPage p {
+  padding-left: 20px;
+}
 .cat_gallery {
   display: flex;
   flex-wrap: wrap;
@@ -202,6 +203,7 @@ h2 {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  border-radius: 8px;
 }
 .cat1 {
   background-image: url(img/Fringe.JPG);
