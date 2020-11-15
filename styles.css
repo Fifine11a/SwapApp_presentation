@@ -252,16 +252,43 @@ figcaption {
   display: flex;
   flex-wrap: wrap;
   margin: 10px 50px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 .cats {
-  width: 50%;
+  flex: 0 1 50%;
+  position: relative;
+  overflow: hidden;
+}
+.cats p {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: #ec6333;
+  opacity: 0.6;
+  background-color: #212529;
+  text-align: center;
+  transform: translateY(100%);
+  transition: transform 0.4s;
+  padding: 10px;
+  margin: 0;
 }
 
 .cat {
-  padding: 15px;
-  max-width: 800px;
   width: 100%;
+  transition: transform 0.4s;
+  display: block;
 }
+
+.cat:hover {
+  transform: scale(1.1);
+}
+.cats:hover p {
+  transform: translateY(0);
+}
+
 .cat1 {
   filter: grayscale();
 }
