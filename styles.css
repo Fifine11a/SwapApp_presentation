@@ -267,13 +267,13 @@ figcaption {
   left: 0;
   width: 100%;
   color: #ec6333;
-  opacity: 0.6;
   background-color: #212529;
   text-align: center;
   transform: translateY(100%);
   transition: transform 0.4s;
   padding: 10px;
   margin: 0;
+  font-size: 15px;
 }
 
 .cat {
