@@ -289,10 +289,6 @@ figcaption {
   transform: translateY(0);
 }
 
-.cat1 {
-  filter: grayscale();
-}
-
 /* footer */
 .footer_list {
   display: inline-grid;
