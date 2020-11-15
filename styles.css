@@ -259,6 +259,8 @@ figcaption {
 
 .cat {
   padding: 15px;
+  max-width: 800px;
+  width: 100%;
 }
 .cat1 {
   filter: grayscale();
